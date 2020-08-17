@@ -1,0 +1,14 @@
+method overriding
+---> is a[inherited]
+----> 2 class [super, sub]
+ -----> same method
+ -----> same signature
+
+super [ super class info]
+
+--->variable
+super.variablename;
+----> constructor
+super();
+---->method
+super.methodname();
