@@ -1,0 +1,16 @@
+
+package => collection of class, interface & methods
+
+adv :
+maintain
+protection
+name collision
+
+user defined
+inbuilt => import java.io.*;
+           import java.util.*;
+           import java.net.*;
+           import java.awt.*;
+
+package packname;
+import packagename.*;
