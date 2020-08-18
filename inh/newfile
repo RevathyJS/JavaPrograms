@@ -1,67 +1,38 @@
-Inheritance => Reuse
-eg.
-Mobile ---> version
-----> calling , msg
-----> setalaram, light,camera
+Polymorphism
+1)method overloading => compile time
+2)method overriding => run time
 
-Keyword: extends
-Single
-class a
+class summation
 {
-calling()
+add()
 {
 }
-msg()
+add(int,int)
 {
 }
-}
-class b extends a
-{
-setalaram()
+add(double,double)
 {
 }
-light()
-{
-}
-camera()
+add(string,string)
 {
 }
 }
-class c extends b // Multilevel
+---------------------
+class a // super
+{
+add() // method specific
 {
 }
-class d extends c
+}
+class b extends a //sub
 {
+add() // specific
+{
+}
 }
 
-Types
-1. Single Inheritance => only one
-2. Multilevel Inheritance => more than one level
-3. Hierarchical=> one class => n no class
-4. Hybrid
-5. Multiple Inheritance(not supported in java) => Interface
-Hierarchical
-class a
-{
-}
-class b extends a
-{
-}
-class c extends a
-{
-}
-Multiple
-class a
-{
-}
-class b
-{
-}
-class c extends a,b // compile time error
-{
-}
+super ===> super class info will be accesses
 
-Hierarchical
----> clg[name,code]
- ----> student[name,rollno,dept]
- ----> staff[name,staffid,dept]
+----> super.variablename;
+----> super();(or) super(parameter)
+-----> super.methodname();
