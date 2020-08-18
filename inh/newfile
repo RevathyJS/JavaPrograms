@@ -1,14 +1,67 @@
-method overriding
----> is a[inherited]
-----> 2 class [super, sub]
- -----> same method
- -----> same signature
+Inheritance => Reuse
+eg.
+Mobile ---> version
+----> calling , msg
+----> setalaram, light,camera
 
-super [ super class info]
+Keyword: extends
+Single
+class a
+{
+calling()
+{
+}
+msg()
+{
+}
+}
+class b extends a
+{
+setalaram()
+{
+}
+light()
+{
+}
+camera()
+{
+}
+}
+class c extends b // Multilevel
+{
+}
+class d extends c
+{
+}
 
---->variable
-super.variablename;
-----> constructor
-super();
----->method
-super.methodname();
+Types
+1. Single Inheritance => only one
+2. Multilevel Inheritance => more than one level
+3. Hierarchical=> one class => n no class
+4. Hybrid
+5. Multiple Inheritance(not supported in java) => Interface
+Hierarchical
+class a
+{
+}
+class b extends a
+{
+}
+class c extends a
+{
+}
+Multiple
+class a
+{
+}
+class b
+{
+}
+class c extends a,b // compile time error
+{
+}
+
+Hierarchical
+---> clg[name,code]
+ ----> student[name,rollno,dept]
+ ----> staff[name,staffid,dept]
