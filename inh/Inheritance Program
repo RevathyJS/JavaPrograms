@@ -1,0 +1,48 @@
+1.Single Inheritance
+student
+-->name
+-->rollno
+ --->read()
+ --->display()
+mark
+--->m1
+--->m2
+--->m3
+ ---->read()
+ ---->display()
+2. Multilevel Inheritance
+student
+-->name
+-->rollno
+ --->read()
+ --->display()
+mark
+--->m1
+--->m2
+--->m3
+ ---->read()
+ ---->display()
+result
+-->total
+-->avg
+--->calculate()
+--->display()
+3. Hierarchical
+book //super
+-->name
+-->access no
+-->author
+ -->getbookdetails()
+ -->show()
+student extends book
+-->name
+-->rollno
+-->dept
+ -->studentdetails()
+ --->show()
+staff extends book
+-->name
+-->sid
+-->dept
+ --->staffdetails()
+ --->show()

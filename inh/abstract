@@ -1,0 +1,21 @@
+Abstract ==> implementation
+---> class
+---> method
+
+abstract class sample
+{
+abstract add();
+}
+class a extends sample
+{
+add()
+{
+/// implementation
+}
+}
+class b extends sample
+{
+add()//method specific 
+{
+}
+}
