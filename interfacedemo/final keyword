@@ -1,0 +1,12 @@
+final [
+ ---> variable
+ ----> method
+ -----> class
+
+final int a=10; // constant
+final void methodname() // overridden 
+{
+}
+final class name // inheritance
+{
+} 

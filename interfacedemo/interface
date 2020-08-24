@@ -1,0 +1,108 @@
+Abstraction
+1)---> abstract class & method => not total abstraction
+astract class sample
+{
+abstract void aa();
+void bb()
+{
+}
+}
+
+2)Interface => total abstraction // multiple inheritance
+ ---> class
+ ----> variable ==> final & static
+ -----> method => abstract
+
+interface intername
+{
+int a=10;
+void add();                   ---->        public interface intername
+}                                           {
+                                             public final static int a=10;
+                                             public abstract void add();
+                                            }
+
+keywords : implements
+
+class sample implements intername
+{
+public void add()
+{
+//definition [ implementation part]
+}
+}
+
+object creation
+sample obj=new sample();
+obj.add();
+
+intername obj=new sample(); /// dynamic method dispatch (or) upcasting 
+obj.add()
+
+multiple inheritance not possible in java
+class a
+{
+add()
+}
+class b
+{
+sub()
+}
+class c extends a,b
+{
+
+}
+---> Diamond problem
+
+interface a
+{
+add()
+}
+interface b
+{
+add()
+}
+class c implements a,b
+{
+add()
+}
+Interface[impl] jdk1.8
+1) default method
+2) static method
+
+class
+---> inheritance
+---> interface
+
+program
+interface ---> product code
+               1.tv[101]
+               2.laptop[102]
+               3.mobile[103]
+interface---> getproductdetails(int code)
+              getproductprice(int code)
+class--->
+getproductdetsils(int code)
+{
+switch(code)
+101-- 
+102--
+103--
+}
+getproductprice(int code)
+{
+switch(code)
+101-- 
+102--
+103--
+}
+
+
+
+
+
+
+
+
+
+
