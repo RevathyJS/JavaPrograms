@@ -1,0 +1,24 @@
+Inner class/nested class
+1) outer class 2)inner class
+--> readability & maintainability
+--> members in outer class is accessed using ur inner class
+--> code optimization
+
+types
+1) nonstatic
+  i) member inner class => outer class - inner class
+  ii)Anonymous inner class => no name 
+     a) abstract class
+     b) interface
+  iii) local inner class=> inner class is going to present inside a method in outer class
+2)static
+  -static inner class
+
+class class_name
+{
+void methodname()
+{
+}
+}
+class_name obj=new class_name();
+obj.methodname();
