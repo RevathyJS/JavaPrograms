@@ -1,0 +1,20 @@
+Types of copying in JAVA
+1. shallow // different object points to same memory
+2. deep // object have separate memory
+3. cloning //
+
+sample obj=new sample();// allocating memory
+sample obj1=new sample();//allocating memory
+
+
+Interface Cloneable => Giving access to use clone() in Object class
+Class Object
+-->clone()
+ ---> return type Object
+  ---> CloneNotSupportedException
+
+syntax:
+protected Object clone() throws CloneNotSupportedException
+{
+return super.clone();
+}
