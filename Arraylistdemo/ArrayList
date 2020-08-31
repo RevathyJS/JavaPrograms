@@ -1,0 +1,12 @@
+ArrayList
+---> collections => framework store & manipulate group of object
+ ---> set of data [ search,sort,insert, delete, manipulation]
+----> interfaces & classes
+ ---> set,list,queue,deque
+ ---> arraylist,vector,linkedlist,priority queue,hash set,linkedhash set,treeset
+
+ArrayList<student> list=new ArrayList<Integer>();
+
+4,8,9,20
+-> positive []
+8,10,9,20
