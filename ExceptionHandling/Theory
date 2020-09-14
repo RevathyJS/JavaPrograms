@@ -1,0 +1,59 @@
+Unit III
+Exception Handling  
+ 
+--> abnormal => 
+
+i/p => process => o/p
+
+Normal Statements  eg. int i=10;
+Critical Statament   int i=j/k; 10/2
+                     int a[]=new int[3];
+                     a[2]=10;
+
+Object
+Throwable
+Exception
+--> Checked Exception => compile time
+                     ---> ColneNotSupportedException
+                     ---->classNotFoundException
+                     ---->I/OException
+                     ---->SQLException
+                     ---->RemoteException
+--> Unchecked Exception=> Runtime
+                     --->ArithemticException
+                     --->ArrayIndexOutOfBoundsException
+                     --->NullPointerException
+                     --->NumberFormatException
+                     --->StringIndexOutOfBoundsException
+
+--> error => h/w, power failure, virtual m/c
+
+keywords : try,catch,throw,throws,finally
+
+Program: 
+get i/p through command prompt
+a,b => add
+--> NumberFormatException
+--> ArrayoutofboundsException
+
+finally ---> block
+Resource
+open()
+close()
+
+n/w=> open connection,close connection
+
+sql-->
+
+Nested try block
+
+final            finally            finalize()
+
+throw => explicitly throwing exception
+==> user defined /custom exception
+
+throw new ArithmeticException();
+
+returntype methodname () throws IOException,SQLException
+{
+}
