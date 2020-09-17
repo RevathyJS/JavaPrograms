@@ -46,14 +46,60 @@ n/w=> open connection,close connection
 sql-->
 
 Nested try block
-
-final            finally            finalize()
+try{
+try
+{
+}
+catch()
+{
+}
+}
+catch()
+{
+}
+final            finally           finalize()
+keyword          block             method => garbage collection
 
 throw => explicitly throwing exception
 ==> user defined /custom exception
-
+throw new Exceptiontype("");  -> error
 throw new ArithmeticException();
+if it wants to be get handled
+try
+{
+throw new Exceptiontype("");
+}
+catch() // handle error[error handling code]
+{
+}
 
 returntype methodname () throws IOException,SQLException
 {
 }
+
+User defined Exception/ custom Exception
+
+class LimitException extends Exception
+{
+String message;
+LimitException(String msg)
+{
+message = msg; // super(msg) => super class constructor
+}
+public String toString()
+{
+return message;
+}
+}
+
+
+if(condition)
+LimitException obj=new LimitException("exceeding limit");
+throw obj;
+
+time limit
+
+i/p --> 12:50
+---> 
+---> check --> 0 to 24
+---> 0 to 60
