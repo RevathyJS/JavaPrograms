@@ -5,35 +5,32 @@
  */
 package ExceptionHandling;
 
-import java.util.Scanner;
-
 /**
  *
  * @author HP
  */
-public class negademo {
-
+public class stacktracedemo 
+{
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         // TODO code application logic here
-        Scanner obj=new Scanner(System.in);
-        System.out.println("Enter value");
-       try
-       {
-        int i=obj.nextInt();
-        System.out.println("Enter value"+i);
-       }
-        catch(Exception e)
+        try
         {
-           StackTraceElement[] stackTrace = e.getStackTrace();
+            throw new ArithmeticException("/ by zero");
+        }
+        catch(ArithmeticException e)
+        {     
+            System.out.println(e);
+            StackTraceElement[] stackTrace = e.getStackTrace();
             for (StackTraceElement s : stackTrace) 
             {
                 System.out.println("at " + s.getClassName() + "." + s.getMethodName()+ "(" + s.getFileName() + ":" + s.getLineNumber() + ")");
             }
         }
-        
     }
-    
 }
+    
+
