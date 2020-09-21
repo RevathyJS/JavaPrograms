@@ -1,0 +1,68 @@
+I/O Stream
+stream -> logical connection b/w program & outside world[file/s/w/system]
+
+pipe===>
+class sample
+{
+int a,b;
+}
+obj -> a=9 b=10
+
+2 types =>I/p Stream & O/p Stream
+eg. over head tank
+
+Binary Stream[1.0] & Character Stream[1.1]
+bytestream[8 bit]    characterstream[16 bit unicode]
+I/P & O/P            Reader writer
+
+abc => a => 65/97 b=>
+read()
+write()
+
+Eg    Source -> Keyboard,mouse,file,socket,DB, object,array,string,StringBuffer
+      Destination -> Monitor/console, file,socket,DB,object,array,string,stringbuffer
+
+Object(java.lang)
+java.io
+InputStream ---> Abstract class closeable,autocloseable(java.lang)
+--> FileInputStream
+--> ByteArrayInputStream
+--> FilterInputStream
+    --> DataInputStream [Primitive data]    DataInput Interface
+    --> BufferedInputStream    
+--> ObjectInputStream                       ObjectInput Interface
+--> PipedInputStream
+--> SquenceInputStream 
+--> StringBufferInputStream
+
+FileInputStream obj=new FileInputStream("aa.txt");
+
+OuputStream ---> Abstract class closeable, autocloseable & flushable Interface
+--> FileOuputStream
+--> ByteArrayOuputStream
+--> FilterOuputStream
+    --> DataOuputStream [Primitive data]
+    --> BufferedOuputStream 
+    --> PrintStream 
+--> ObjectOuputStream
+--> PipedOuputStream
+
+InputStream class Methods
+
+public int available() throws IOException
+public void close()
+public int read()/abstract
+public int read(byte[] b) b=10
+public int read(byte[] b,int offset,int length)// 100,10
+public boolean markSupported()*// true/false
+public void mark(int readlimit)*// 200
+public void reset()//
+public long skip(long n)// 10000
+
+OutputStream class Methods
+
+public void close() throws IOException
+public void write()/abstract
+public void write(byte[] b)
+public void write(byte[] b,int offset,int length)
+public void flush()
