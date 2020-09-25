@@ -1,0 +1,20 @@
+1. Write to a file using FileOutPutStream
+2. Read from a file using FileInputStream
+3. Copy content from one file to another file using FileInput and Output Stream.
+4. Get input  using DataInputStream and print using DataOutPutStream.// Scanner 
+5. use DataOutPutStream and DataInputStream to write and read primitive data type.// 1000, c, java
+6. Get input using ByteArrayInputStream  and print using ByteArrayOutPutStream.
+7. Object reading & writing in file
+8. Reading two files at a time using SequenceInputStream
+9. Printing using PrintStream
+10. Working with PipedInput and OutputStream
+11. BufferedInputStream & BufferedOutPutStream
+
+portion
+arraylist
+string
+exception
+bytestream
+
+5-2 mark
+1-15 mark
