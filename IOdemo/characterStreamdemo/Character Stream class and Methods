@@ -1,0 +1,27 @@
+Character Stream [character by character] => unicode
+
+Reader 
+CharArrayReader 
+BufferedReader
+InputStreamReader
+FileReader
+StringReader
+---> read(), read(char[]),read(char[],offset,len)
+
+Writer
+CharArrayWriter
+BufferedWriter
+OutputStreamWriter
+FileWriter
+PrintWriter
+StringWriter
+---> write(), write(char[]),write(char[],offset,len)
+
+
+Programs
+1. Reading from CharArrayReader
+2. Writing into CharArrayWriter also writing into file
+3. Get input using inputStreamReader & bufferedReader // scanner , datainputStream
+4. Display using outputStreamwriter & bufferedWriter
+5. Reading and writing using File Reader & writer
+6. printWriter
