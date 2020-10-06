@@ -1,0 +1,27 @@
+Predefined Streams
+
+1. System.in
+2. System.out
+3. System.err
+
+Reading & Writing Console
+java.io
+
+Console c = System.console(); // java.io
+
+Console Methods for I/O
+1. format(String fmt, Object... args) scanf("%d",&i)
+2. printf(String format, Object... args)
+3. readLine() => oops
+4. readLine(String fmt, Object... args)
+5. readPassword() =>
+6. readPassword(String fmt, Object... args)
+
+String progLanguauge = console.readLine("Enter your favourite programming language: ");
+
+char[] pass = console.readPassword("To finish, enter password: ");
+
+c.printf(progLanguauge + " is very interesting!");
+
+
+ 
