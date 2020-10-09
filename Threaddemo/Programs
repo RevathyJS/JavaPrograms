@@ -1,0 +1,8 @@
+1. Creating Thread by extending Thread class
+2. sleep method
+3. join method  
+4. isalive method
+5. getname & setname for Thread method
+6. currentThread
+7. get & set priority[1-10] MIN_PRIORITY,MAX_PRIORITY & NORM_PRIORITY [5]
+8. Creating thread by implementing Runnable interface

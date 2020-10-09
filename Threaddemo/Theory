@@ -1,0 +1,65 @@
+Multithreading 
+
+--> Program => passive entity
+--> process => program in execution => active entity
+ --> memory [variables]
+ --> process id 
+ --> cpu cycle /clock speed 2.4GHZ 2.4 10^9
+ --> i/o
+ --> file
+
+---> Thread => unit of task within process eg. getting add removing sub getting 
+ ---> Multithreading
+ Eg. assign=> 10 ques[ 5 students]
+Main Goal : performance 
+
+Real time Eg.
+1. MS word => typing, spelling/red, grammar/green, autosave, printing
+2. Web browser => chrome [text/image/video/audio]
+3. web server => gmail [multithreading]
+              => annauniv
+                => 1000
+
+Multitasking
+--> Multiprocessing => OS level => separate memory, difficult, time to switch[context switching], save, heavy weight process 
+--> Multithreading => program level => share memory within process,light weight process 
+
+create Thread in java
+1. Thread class
+2. Runnable Interface
+class abc
+{
+//
+}
+
+class sample extends abc, Thread // Multiple inheritance is not possible
+{
+// void display()
+}
+
+class sample extends abc implements Runnable
+{
+}
+
+creation of thread
+1. extending thread class
+class sample extends Thread
+{
+//--> void run()
+{
+}
+}
+
+sample obj=new sample();
+obj.start();
+
+
+
+
+
+
+
+
+
+
+
