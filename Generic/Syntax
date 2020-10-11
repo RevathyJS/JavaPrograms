@@ -1,0 +1,39 @@
+Generic Programming => wrapper class => Number[Integer, byte, short, Long, Float, Double]
+                                        Character, String , Boolean
+
+--> 
+--> class
+--> method
+--> restrictions
+
+Adv:
+1. type specific
+2. type casting
+3. easy error
+
+syntax: 
+
+class name<T> // T->type[Integer/Float/Double/Character/String/Byte/Long?Short/Boolean]
+{
+method()
+{
+}
+}
+
+name<Integer> obj=new name<Integer>();
+obj.method();
+
+name<Character> obj=new name<Character>();
+obj.method();
+
+ArrayList<Integer> obj=new ArrayList<>();
+obj.add(10);
+
+
+class name<T extends Number>
+{
+}
+
+scope <T,V> return_type methodname(T value,V value1) // method(int a,int b)
+{
+}

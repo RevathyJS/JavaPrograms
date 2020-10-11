@@ -1,0 +1,5 @@
+1. Get value and class name for one parameter
+2. get value and class name for two parameter
+3. generic class to print the elements of given Type
+4. Bounded class type to find the sum and average of given array type
+5. Generic method to find an element is present in given array type
