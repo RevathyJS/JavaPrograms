@@ -1,0 +1,22 @@
+steps
+1. create object for the component
+2. add the component
+3. if needed add Listeners
+   --> implements Listener
+   --> add Listener
+   --> implementing the Listener method
+Eg.
+JButton b=new JButton("Click");
+
+add(b)
+
+b.addActionListener(this);
+
+public void actionPerformed(ActionEvent ae)
+{}
+
+1. JLabel
+2. JTextField
+3. JTextArea
+4. JButton
+5. JPassword
